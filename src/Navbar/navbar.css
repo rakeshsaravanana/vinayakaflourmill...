@@ -1,0 +1,141 @@
+:root{
+    --orange:#F99417;
+    --white:#F5F5F5;
+    --green:green;
+    --red:red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Playpen Sans', cursive;
+}
+
+nav{
+    display:flex;
+    padding: 1em;
+    background-color:black;
+    position:sticky;
+    top: 0px;
+  
+}
+
+
+nav a{
+    text-decoration: none;
+    color: var(--orange);
+    list-style: none;
+}
+ nav span{
+    margin-left: 5px;
+} 
+#logo{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    flex: 3;
+    
+}
+
+ul{
+    display: flex;
+    flex: 2;
+    list-style: none;
+}
+li{
+    flex: 1;
+    font-weight: 800;
+    transition: 0.3s ease-in;
+    margin-right: 30px;
+}
+ul a:hover{
+    color:rgba(12, 210, 12, 0.998);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+   
+}
+#navbar li a{
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+}
+#navbar li a.icon{
+    letter-spacing:5px;
+}
+
+#mobile i{
+    color: white;
+}
+
+#mobile{
+    display: none;
+  }
+@media all and (min-width:815px){
+    #navbar li .icon{
+        display: none;
+    }
+}  
+
+@media all and (max-width:720px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: -350px;
+        left:0;
+        align-items: center;
+        justify-content:center;
+        height: 35vh;
+        width: 100vw;
+        padding-top: 40px;
+        background-color:rgba(0, 0, 139, 0.751);
+        border: none;
+        transition: 0.9s ease;
+       
+      
+    }
+      #navbar.active{
+         top: 70px;
+      
+    } 
+ 
+
+    #mobile{
+        display: block;
+    }
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #navbar li {
+        
+        padding-left: 40px;      
+    } 
+
+} 
+@media all and (max-width:604px){
+    #navbar{
+        top: -370px;
+        transition: 0.9s ease;
+        
+    }
+}
+@media all and (max-width:290px){
+    #mobile i{
+        font-size: 20px;
+      
+    }
+    
+    
+}

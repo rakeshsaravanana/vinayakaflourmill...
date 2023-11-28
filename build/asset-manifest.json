@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vinayakaflourmill-vfm/static/css/main.f9f471d1.css",
+    "main.js": "/vinayakaflourmill-vfm/static/js/main.5fcc7d88.js",
+    "static/media/bgc.jpg": "/vinayakaflourmill-vfm/static/media/bgc.e1eddd3f8b16218eea33.jpg",
+    "index.html": "/vinayakaflourmill-vfm/index.html",
+    "main.f9f471d1.css.map": "/vinayakaflourmill-vfm/static/css/main.f9f471d1.css.map",
+    "main.5fcc7d88.js.map": "/vinayakaflourmill-vfm/static/js/main.5fcc7d88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9f471d1.css",
+    "static/js/main.5fcc7d88.js"
+  ]
+}

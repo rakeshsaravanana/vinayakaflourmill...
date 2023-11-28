@@ -1,0 +1,98 @@
+:root{
+    --orange:#F99417;
+    --white:#F5F5F5;
+    --green:green;
+    --red:red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+body{
+    font-family: 'Playpen Sans', sans-serif;
+    
+   
+}
+.products{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(411px,1fr));
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: white;
+
+}
+
+#Productshead{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color:rgba(12, 210, 12, 0.998);
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+
+}
+th{
+    color:var(--orange);
+    font-size: 1.5rem;
+    display: block;
+    font-weight: 400;
+}
+
+table{
+  
+    width: 100%;
+    padding:1em;
+}
+.products tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+.products td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.products td:nth-child(2){
+    flex: 1;
+    justify-self: center;
+}
+.products td:nth-child(3){
+    justify-self: right;
+}
+
+
+@media all and (max-width:410px){
+    html,body {
+        margin:0;
+        padding:0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .products{
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+    }
+    
+
+} 
+
+@media all and (max-width:300px){
+
+
+    #Productshead,#locationhead{
+        font-size: 1rem;
+    }
+    th{
+        font-size: 0.8rem;
+    }
+    .products{
+        font-size: 0.5rem;
+    }
+
+    
+    
+}
+

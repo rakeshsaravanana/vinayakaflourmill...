@@ -1,0 +1,130 @@
+:root{
+    --orange:#F99417;
+    --white:#F5F5F5;
+    --green:green;
+    --red:red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+body{
+    font-family: 'Playpen Sans', cursive;
+    
+   
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    padding: 5em 0 0 0;
+    
+}
+
+
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+   
+}
+.media{
+    display: flex;
+    padding:0 2rem;
+   font-size: 2rem;
+}
+
+.socialmedia .queries{
+    /* display: block; */
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.instagram{
+    color: white;
+}
+.whatsap{
+    color: white;
+}
+
+.instagram:hover{
+    color: purple;
+
+}
+.whatsap:hover{
+    color: green;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+   
+
+}
+.navlinks a{
+    text-decoration: none;
+    color:#ffffff;
+    padding:2px;
+    font-style: normal;
+   
+
+}
+.navlinks a:hover{
+    color: var(--orange);
+    transition: 0.3s ease;
+}
+
+
+
+footer #copyright{
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+footer #developed{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+@media all and (max-width:300px){
+    address{
+        font-size: 0.65rem;
+    }
+    .socialmedia .queries{
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    .instagram{
+        font-size: 1.5rem;
+    }
+    .whatsap{
+        font-size: 1.5rem;
+
+    }
+
+    .navlinks a{
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

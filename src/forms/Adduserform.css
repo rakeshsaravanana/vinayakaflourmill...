@@ -1,0 +1,156 @@
+:root{
+    --orange:#F99417;
+    --white:#F5F5F5;
+    --green:green;
+    --red:red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form{
+    width: 90%;
+}
+#root > div.container > div.flex-row > div{
+    width: 90%;
+}
+
+.label{
+    display: block;
+    justify-content: center;
+    padding: 5px 0;
+    color: var(--orange);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 10px;
+} 
+.emailinput{
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 2px;
+    color:var(--white);
+}
+.reviewinput{
+    padding: 5px;
+    width: 70%;
+    resize: none;
+    display: block;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 2px;
+    color:var(--white);
+}
+.reviewbtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    width: 150px;
+    height: 40px;
+    color:white;
+    padding: 5px 10px;
+    background-color:transparent;
+    border:solid green 2px;
+    font-weight:500;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+.reviewbtn:hover{
+    background-color: var(--green);
+    cursor: pointer;
+}
+.cancelbtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    padding: 5px 10px;
+    background:transparent;
+    border:solid red 2px;
+    font-weight:500;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.cancelbtn:hover{
+    /* background-color:var(--red); */
+    cursor: pointer;
+}
+
+
+@media all and (max-width:281px){
+    .label{
+        font-size: 0.8rem;
+    }
+    .emailinput{
+        width: 60%;
+
+    }
+    .reviewinput{
+        width: 60%;
+    }
+    .reviewbtn{
+        width: 100px;
+        height: 30px;
+        padding:3px 3px;
+        font-size: 0.8rem;
+        background-color: transparent;
+        border: solid var(--green) 2px;
+    }
+    .reviewbtn:hover{
+        background-color: var(--green);
+        cursor: pointer;
+    }
+    .cancelbtn{
+        width: 100px;
+        height: 30px;
+        padding:3px 3px;
+        font-size: 0.8rem;
+        background: transparent;
+        border: solid red 1px;
+    }
+    .cancelbtn:hover{
+        background-color:var(--red);
+        cursor: pointer;
+    }
+}
+@media all and (max-width:241px){
+    .label{
+        font-size: 0.8rem;
+    }
+    .emailinput{
+        width: 50%;
+
+    }
+    .reviewinput{
+        width: 50%;
+    }
+    .reviewbtn{
+        width: 80px;
+        height: 30px;
+        font-size: 0.6rem;
+    }
+    .cancelbtn{
+        width: 80px;
+        height: 30px;
+        font-size: 0.6rem;
+        background: transparent;
+        border: solid red 2px;
+    }
+    .cancelbtn:hover{
+        background-color:var(--red);
+        cursor: pointer;
+        }
+
+    .heading{
+        font-size: 1rem;
+    }
+}

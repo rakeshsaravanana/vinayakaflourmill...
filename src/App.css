@@ -1,0 +1,86 @@
+:root{
+  --orange:#F99417;
+  --white:#F5F5F5;
+  --green:green;
+  --red:red;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+ 
+}
+body{
+  font-family: 'Playpen Sans', cursive;
+  
+ 
+}
+
+
+.landingpage{
+  background-image: url('./assets/bgc.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color:var(--white);
+  
+
+  
+ 
+}
+
+
+.maintext{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  padding: 2em;
+}
+.text1{
+  color:var(--white);
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+.text1 span{
+  color: var(--orange);
+}
+.text3{
+  color: white;
+  font-size: 1.1em;
+}
+.text3 span{
+  color:var(--green);
+  font-weight: 800;
+}
+.maintext div{
+  margin-top: 0.9em;
+}
+
+.btn{
+ width: 100px;
+ margin-top: 10px;
+ border: none;
+ border-radius: 10px;
+ padding:10px;
+ color:white;
+ border: solid green 2px;
+ background: transparent;
+ font-weight:bold;
+
+}
+.btn:hover{
+  background-color:var(--green);
+  cursor: pointer;
+  color:whitesmoke;
+}
+
+
+
+
+
+
+
+
+
