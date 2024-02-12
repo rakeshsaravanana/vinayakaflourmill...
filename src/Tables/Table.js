@@ -32,7 +32,7 @@ const Table = (props) => {
             )) 
             ):(
                 <tr>
-                    <td colSpan={3}>No reviews</td>
+                    <td colSpan={3}>No Reviews</td>
                 </tr>
             )
               }
